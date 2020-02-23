@@ -1,5 +1,3 @@
-#
-#
 # ABOUT TF
 #
 # What is Tensorflow ?
@@ -10,16 +8,25 @@
 
 
 
+
 # BASIC OP ON TENSORS
 # How to create tensors ?
 # How to get basic properties ?
 # What are some basic operations on tensors (4)?
-#
+
 # Instantiate 2 random tensors, one with uniform the other with normal distrib
-#
+
 # How to compute mean, sum, sd on a tensor? matrix product ? nLp norm ?
-#
+
 # How to split, stack, and concatenate ? (difference stack / concatenate ?)
+
+# Completer stack: what constraints on tensors that will be stack?
+# Packs the list of tensors in values into a tensor with rank one higher than each tensor in values, by packing them along the axis dimension.
+# Given a list of length N of tensors of shape (A, B, C); if axis == 0 then the output tensor will have the shape ???. if axis == 1 then the output tensor will have the shape ???. Etc.
+
+# Completer concat
+# Concatenates the list of tensors values along dimension axis. If values[i].shape = [D0, D1, ... Daxis(i), ...Dn], the concatenated result has shape ???
+# Constraints on all tensors ?
 
 
 # TF DATASETS API
@@ -37,8 +44,9 @@
 # creer train, test datasets et visualiser 10 images
 
 
+
 # TF KERAS API
-# Qu est ce que KEras ? Pourquoi l utiliser ?
+# Qu est ce que Keras ? Pourquoi l utiliser ?
 
 # Comment creer une stack de layer ? differentes facons d empiler ?
 # Qu est ce que le subclassing ?

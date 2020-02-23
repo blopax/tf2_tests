@@ -3,4 +3,5 @@ matplotlib
 numpy
 pandas
 tensorflow
+tensorflow_datasets
 
